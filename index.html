@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <meta name="description" content="Profileです。">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__logo">
+          <a href="index.html"><img src="images/logo.svg" alt="ロゴ"></a>
+        </div>
+        <nav class="header__nav" aria-label="グローバルナビゲーション">
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="#about">About</a></li>
+            <li class="header__item"><a class="header__link" href="#bicycle">Bicycle</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-visual">
+        <h1 class="visually-hidden">Profile</h1>
+        <img class="main-visual__img" src="images/mainvisual.jpg" alt="">
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <h2 class="about__title">About</h2>
+
+          <div class="about__container">
+            <div class="about__left">
+              <img src="images/about.jpg" alt="写真">
+            </div>
+            <div class="about__right">
+              <h3 class="about__name">KAKERU MIYAICHI</h3>
+              <p class="about__text">
+                テキストテキストテキストテキストテキストテキストテキスト<br>
+                テキストテキストテキストテキストテキストテキストテキスト<br>
+                テキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="bicycle" id="bicycle">
+        <div class="container">
+          <h2 class="bicycle__title">Bicycle</h2>
+
+          <div class="bicycle__container">
+
+            <div class="bicycle__card">
+              <img src="images/bicycle1.jpg" alt="自転車1">
+              <h3 class="bicycle__name">タイトルタイトル</h3>
+              <p class="bicycle__text">テキストテキストテキスト</p>
+            </div>
+
+            <div class="bicycle__card">
+              <img src="images/bicycle2.jpg" alt="自転車2">
+              <h3 class="bicycle__name">タイトルタイトル</h3>
+              <p class="bicycle__text">テキストテキストテキスト</p>
+            </div>
+
+            <div class="bicycle__card">
+              <img src="images/bicycle3.jpg" alt="自転車3">
+              <h3 class="bicycle__name">タイトルタイトル</h3>
+              <p class="bicycle__text">テキストテキストテキスト</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer__copyright">&copy; 2020 Profile</div>
+    </footer>
+  </body>
+</html>
